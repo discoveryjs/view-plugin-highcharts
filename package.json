@@ -1,0 +1,30 @@
+{
+  "name": "@discoveryjs/view-plugin-highcharts",
+  "version": "1.0.0",
+  "description": "Highcharts plugin for Discovery.js",
+  "author": "Roman Dvornov",
+  "license": "MIT",
+  "repository": "discoveryjs/view-plugin-highcharts",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:js && npm run build:css",
+    "build:js": "rollup --config",
+    "build:css": "node scripts/bundle-css",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "discovery",
+    "plugin",
+    "charts"
+  ],
+  "devDependencies": {
+    "css-tree": "^1.0.0-alpha.39",
+    "highcharts": "^8.0.0",
+    "mime": "^2.4.4",
+    "rollup": "^1.27.13",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.3"
+  },
+  "dependencies": {}
+}
