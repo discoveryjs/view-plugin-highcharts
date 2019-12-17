@@ -26,5 +26,10 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-terser": "^5.1.3"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "files": [
+    "src",
+    "index.js",
+    "index.css"
+  ]
 }
