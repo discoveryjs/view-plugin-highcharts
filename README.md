@@ -1,3 +1,5 @@
+[![NPM version](https://img.shields.io/npm/v/@discoveryjs/view-plugin-highcharts.svg)](https://www.npmjs.com/package/@discoveryjs/view-plugin-highcharts)
+
 # @discoveryjs/view-plugin-highcharts
 
 Highcharts plugin for Discovery.js
