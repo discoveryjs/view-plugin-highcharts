@@ -19,7 +19,7 @@
   ],
   "devDependencies": {
     "css-tree": "^1.0.0-alpha.39",
-    "highcharts": "^8.0.0",
+    "highcharts": "^9.0.0",
     "mime": "^2.4.4",
     "rollup": "^1.27.13",
     "rollup-plugin-commonjs": "^10.1.0",
